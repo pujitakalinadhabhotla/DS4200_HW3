@@ -1,31 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Pujita's Personal Website</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <h1>Contact Me</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8e8ff; /* Light lavender background */
+    color: #5e2a84; /* Dark purple text */
+}
 
-    <section>
-        <h2>Get in Touch</h2>
-        <p>You can reach me via email:</p>
-        <p><a href="mailto:pujita78@gmail.com">pujita78@gmail.com</a></p>
-    </section>
+header {
+    background-color: #ff66b2; /* Bright pink */
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
 
-    <footer>
-        <p><a href="index.html">Back to Home</a></p>
-    </footer>
-</body>
-</html>
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    text-align: center;
+    padding: 20px;
+}
+
+img {
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    background-color: #5e2a84; /* Dark purple */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
