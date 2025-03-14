@@ -1,16 +1,19 @@
+/* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8e8ff; /* Light lavender background */
-    color: #5e2a84; /* Dark purple text */
+    background: linear-gradient(to bottom, #fce4ec, #f3e5f5); /* Pink to Purple Gradient */
+    color: #4a148c; /* Dark purple text */
+    text-align: center;
 }
 
+/* Header */
 header {
-    background-color: #ff66b2; /* Bright pink */
+    background-color: #d81b60; /* Deep pink */
     color: white;
-    padding: 15px;
-    text-align: center;
+    padding: 20px;
+    font-size: 1.5rem;
 }
 
 nav ul {
@@ -27,24 +30,52 @@ nav a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.3s;
 }
 
-section {
-    text-align: center;
-    padding: 20px;
+nav a:hover {
+    color: #f8bbd0; /* Light pink */
 }
 
-img {
+/* Content Sections */
+.content {
+    padding: 30px;
+    max-width: 800px;
+    margin: auto;
+    background: white;
     border-radius: 10px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+h1, h2 {
+    color: #6a1b9a; /* Purple */
+}
+
+/* Images */
+img {
+    width: 100%;
+    max-width: 300px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
 footer {
-    background-color: #5e2a84; /* Dark purple */
+    background-color: #6a1b9a; /* Dark purple */
     color: white;
-    text-align: center;
-    padding: 10px;
+    padding: 15px;
     position: relative;
     bottom: 0;
     width: 100%;
+}
+
+footer a {
+    color: #f8bbd0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: white;
 }
