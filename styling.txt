@@ -1,0 +1,3 @@
+1. I made the color scheme more personalized by making the website pink and purple
+2. I used custom typography and made some headings bold and some font bigger than other fonts to emphasize the difference in text and heading
+3. I added a contact me link at the bottom to resemble a modern website so clicking it brings me right to the contact page
